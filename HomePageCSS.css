@@ -1,1 +1,49 @@
+#header{
+    background: white;
+}
 
+#headerImg{
+    width:900px;
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+#gryphon{
+    height: 50px;
+    margin: 3px 20px 0 3px;
+}
+
+li {
+    float: left;
+}
+
+.topBar {
+    list-style-type: none;
+    height: 60px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.topBarBut{
+    Background:#f9f9f9;
+    color: black;
+    
+    border: 1px solid black;
+    outline: none;
+    display: block;
+    
+    padding: 15px 16px;
+    margin: 3px 5px 0 0;
+    
+    
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    float: left;  
+}
+
+.topBarBut:hover {
+  background: #ededed;
+}
