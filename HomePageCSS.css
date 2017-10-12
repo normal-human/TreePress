@@ -3,13 +3,16 @@
 }
 
 #headerImg{
-    width:900px;
     display: block;
     margin: auto;
     width: 80%;
 }
 
-#gryphon{
+.images{
+    height: 50px;
+    margin: 3px 20px 0 3px;
+}
+#Alcove{
     height: 50px;
     margin: 3px 20px 0 3px;
 }
@@ -18,8 +21,17 @@ li {
     float: left;
 }
 
+.socialMed{
+    background:none;
+    border: none;
+    outline: none;
+    margin:0;
+    padding:0;
+}
+
 .topBar {
     list-style-type: none;
+    width: 100%;
     height: 60px;
     padding: 0;
     overflow: hidden;
@@ -28,13 +40,14 @@ li {
 .topBarBut{
     Background:#f9f9f9;
     color: black;
+    width: 90%;
     
     border: 1px solid black;
     outline: none;
     display: block;
     
     padding: 15px 16px;
-    margin: 3px 5px 0 0;
+    margin: 3px 15px 0 0;
     
     
     font-weight:bold;
