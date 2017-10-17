@@ -1,62 +1,33 @@
-#header{
-    background: white;
-}
-
-#headerImg{
-    display: block;
-    margin: auto;
-    width: 80%;
-}
-
-.images{
-    height: 50px;
-    margin: 3px 20px 0 3px;
-}
-#Alcove{
-    height: 50px;
-    margin: 3px 20px 0 3px;
-}
-
-li {
-    float: left;
-}
-
-.socialMed{
-    background:none;
-    border: none;
-    outline: none;
-    margin:0;
-    padding:0;
-}
-
-.topBar {
-    list-style-type: none;
-    width: 100%;
-    height: 60px;
-    padding: 0;
+#navbar {
     overflow: hidden;
+    background-color: #333;
+    width: 100%;
 }
-
-.topBarBut{
-    Background:#f9f9f9;
-    color: black;
-    width: 90%;
-    
-    border: 1px solid black;
-    outline: none;
+/*Navbar Links*/
+#navbar a {
+    float: left;
     display: block;
-    
-    padding: 15px 16px;
-    margin: 3px 15px 0 0;
-    
-    
-    font-weight:bold;
-    font-size: 20px;
+    color: #f2f2f2;
     text-align: center;
+    padding: 14px;
     text-decoration: none;
-    float: left;  
+    padding: none;
 }
-
-.topBarBut:hover {
-  background: #ededed;
+/*Page Content*/
+.content {
+    padding: 16px;
+}
+/*The sticky class is added to the navbar with JS when it reaches the scroll position*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/*Add some top padding to the page of the content to prevent sudden quick movement (as nav bar gets new position)*/
+.sticky + .content{
+    padding-top: 60px;
+}
+body, html {
+    margin: 0;
+    padding: 0;
 }
